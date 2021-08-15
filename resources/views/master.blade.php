@@ -20,6 +20,33 @@
     .login-custom{
         min-height:490px;
     }
+    .slider-img
+    {
+        height: 400px !important;
+    }
+    .login-product
+    {
+        height: 950px; 
+    }
+    .slider-img-h3 {
+        color: black;
+    }
+    .trading-prodcut-section{
+        height: 224px !important;
+    /*
+    width: 12%;
+    margin: 1%;
+    */
+    float: left;
+    text-align: center;
+    }
+
+    .trading-prodcut-img{
+        height: 130px !important;
+    }
+    .header-search{
+        width: 380px !important;
+    }
 </style>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
