@@ -7,9 +7,7 @@
 
 	<!--  Trending Product section start  -->
 	<div class="row">
-	<h1> Products Cart List 
-	<a href="/ordernow" class="btn btn-info" style="    float: right;"> Order Now </a>		
-	<hr></h1>
+	<h1> Order List </h1>
 	
 	<div class="col-12">
 	<table class="table">
@@ -19,7 +17,10 @@
 	<th scope="col">Gallery</th>
 	<th scope="col">Product Name</th>
 	<th scope="col">Price</th>
-	<th scope="col">Action</th>
+	<th scope="col">Address</th>
+	<th scope="col">Payment Mode </th>
+	<th scope="col">Payment Status</th>
+	<th scope="col">Delivery Status</th>
 	</tr>
 	</thead>
 
@@ -27,15 +28,16 @@
 	<?php
 	$sn=1;
 	?>
-	@foreach($products as $item)
+	@foreach($orderdata as $item)
 	<tr>
 	<th scope="row"><?php echo $sn; ?></th>
 	<td><img src="{{$item->gallery}}" class="card-img-top trading-prodcut-img" alt="..."></td>
 	<td>{{$item->name}}</td>
-	<td>{{$item->price}}</td>
-	<td>
-	<a href="/removecart/{{$item->cart_id}}" class="btn btn-danger" >Remove From Cart</a>   
-	</td>
+	<td> INR {{$item->price}}</td>
+	<td>{{$item->address}}</td>
+	<td>{{$item->payment_method}}</td>
+	<td><button class="btn btn-warning">{{$item->payment_status}}</button></td>
+	<td><button class="btn btn-info">{{$item->status}}</button></td>
 	</tr>
 	<?php
 	$sn++;
@@ -45,8 +47,6 @@
 	</table>
 	</div>
 	</div>
-
-	<a href="/ordernow" class="btn btn-info" style="    float: right;"> Order Now </a>	
 
 </div>
 @endsection
