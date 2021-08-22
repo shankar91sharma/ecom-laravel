@@ -47,9 +47,9 @@
 	<div class="form-group row">
 	<label class="col-sm-2 col-form-label">Payment Mode </label>
 	<div class="col-sm-10">
-	<input type="radio" name="payment" value="online"> Online Payment  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
-	<input type="radio" name="payment" value="cod"> COD  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
-	<input type="radio" name="payment" value="emi"> EMI Payment  &nbsp; &nbsp; 
+	<input type="radio" name="payment" value="Online"> Online Payment  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
+	<input type="radio" name="payment" value="COD"> COD  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
+	<input type="radio" name="payment" value="EMI"> EMI Payment  &nbsp; &nbsp; 
 	</div>
 	</div>
 	

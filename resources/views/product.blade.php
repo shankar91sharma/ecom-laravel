@@ -4,7 +4,7 @@
 
 <div class="login-product">
         
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide homeslidercss" data-ride="carousel">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -39,7 +39,7 @@
 	
 	<!--  Trending Product section start  -->
 	<div class="row">
-	<h1> Trending Product </h1>
+	<h2 class="pagemainheading"> Trending Product </h2>
 	@foreach($products as $item)
 	<div class="col-sm-3">
 	<div class="card trading-prodcut-section">

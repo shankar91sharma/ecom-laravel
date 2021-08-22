@@ -7,7 +7,7 @@
 
 	<!--  Trending Product section start  -->
 	<div class="row">
-	<h1> Order List </h1>
+	<h2 class="pagemainheading"> Order List </h2>
 	@if($orderdata->count() > 0)    
 	<div class="col-12">
 	<table class="table">

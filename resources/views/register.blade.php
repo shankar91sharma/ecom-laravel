@@ -4,9 +4,9 @@
 
 <div class="container login-custom">
     <div class="row">
-        <div class="col-sm-7 col-sm-offset-3">
-		   <h2 class="pagemainheading"> Contact Us </h2>
-            <form action="contact" method="POST">
+        <div class="col-sm-4 col-sm-offset-4">
+		    <h2 class="pagemainheading"> Customer Register </h2>
+            <form action="register" method="POST">
             @csrf
             <div class="form-group">
             <label for="exampleInputname">Full Name</label>
@@ -19,16 +19,12 @@
             </div>
 			
 			<div class="form-group">
-            <label for="exampleInputmobile">Mobile No</label>
-            <input type="number" class="form-control" name="mobile" id="exampleInputmobile" aria-describedby="mobileHelp" placeholder="Enter Mobile No" required>
+            <label for="exampleInputmobile">Password</label>
+            <input type="password" class="form-control" name="password" id="exampleInputmobile" aria-describedby="mobileHelp" placeholder="Enter Password" required>
             </div>
 			
-			<div class="form-group">
-            <label for="exampleInputmessage">Message</label>
-            <textarea class="form-control" name="message" id="exampleInputmessage" aria-describedby="messageHelp" placeholder="Enter Message" required></textarea>
-            </div>
 
-            <button type="submit" class="btn btn-primary"> Submit </button>
+            <button type="submit" class="btn btn-info"> Register </button>
             </form>
         </div>
     </div>

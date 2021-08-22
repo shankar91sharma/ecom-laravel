@@ -7,7 +7,7 @@
 
 	<!--  Trending Product section start  -->
 	<div class="row">
-	<h1> Products Cart List </h1>
+	<h2 class="pagemainheading"> Products Cart List </h2>
 	 @if($products->count() > 0)    
 	<a href="/ordernow" class="btn btn-info" style="    float: right;"> Order Now </a>		
 	

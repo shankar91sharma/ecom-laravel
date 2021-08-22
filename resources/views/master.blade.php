@@ -68,6 +68,42 @@
 .first-letter {
   font-size: 35px;
 }
+.pagemainheading{
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+    color: #ed5135;
+}
+.panel-default {
+    background: #4285f4 !important;
+    color: #fff !important;
+    border-color: #ddd !important;
+}
+
+.navbar {
+    position: relative !important;
+    min-height: 50px !important;
+    margin-bottom: 2px !important;
+    border-bottom: 3px solid #00de05;
+    border-top: 3px solid #ea4335
+}
+.homeslidercss
+{
+    border-bottom: 1px solid #00de05;
+}
+
+.productdetailbtn
+{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+.productdetailbuy
+{
+    display: inline-block;
+    float: left;
+}
+
 </style>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

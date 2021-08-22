@@ -20,6 +20,12 @@ class UserAuth
         {
             return redirect('/');
         }
+
+        if($request->path()=="register" && $request->session()->has('user'))
+        {
+            return redirect('/');
+        }
+
         return $next($request);
     }
 }

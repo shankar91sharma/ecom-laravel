@@ -5,6 +5,8 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\About;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\RegisterController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,6 +49,9 @@ Route::post("orderplace", [ProductController::class, 'orderPlace']);
 Route::get("myorder", [ProductController::class, 'myOrder']);
 
 Route::get("about-us", [About::class, 'index']);
-Route::get("contact-us", [About::class, 'contactUs']);
 
+Route::get("contact-us", [About::class, 'contactUs']);
 Route::post("/contact", [ContactController::class, 'index']);
+
+Route::get("/register", [RegisterController::class, 'index']);
+Route::post("/register", [RegisterController::class, 'register']);

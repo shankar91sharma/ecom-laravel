@@ -7,7 +7,7 @@
 
 	<!--  Trending Product section start  -->
 	<div class="row">
-	<h1> Result Products <hr></h1>
+	<h2 class="pagemainheading"> Search Products </h2>
 	@foreach($products as $item)
 	<div class="col-sm-3">
 	<div class="card trading-prodcut-section">

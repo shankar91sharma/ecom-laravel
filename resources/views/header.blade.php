@@ -52,7 +52,7 @@ if(Session::has('user'))
           </ul>
         </li>
         @else
-          <li><a href="/login"><button class="btn btn-primary btn-sm">Register</button></a></li>
+          <li><a href="/register"><button class="btn btn-primary btn-sm">Register</button></a></li>
           <li><a href="/login"><button class="btn btn-success btn-sm">Login</button></a></li>
           @endif
       </ul>

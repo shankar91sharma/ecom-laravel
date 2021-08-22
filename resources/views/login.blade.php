@@ -5,6 +5,7 @@
 <div class="container login-custom">
     <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
+		    <h2 class="pagemainheading"> Customer Login </h2>
             <form action="login" method="POST">
             @csrf
             <div class="form-group">
