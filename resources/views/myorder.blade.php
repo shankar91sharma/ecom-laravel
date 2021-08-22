@@ -8,7 +8,7 @@
 	<!--  Trending Product section start  -->
 	<div class="row">
 	<h1> Order List </h1>
-	
+	@if($orderdata->count() > 0)    
 	<div class="col-12">
 	<table class="table">
 	<thead class="thead-dark">
@@ -46,6 +46,11 @@
 	</tbody>
 	</table>
 	</div>
+	@else  
+    <div class="col-12">
+	<h4 class="text-danger text-bold"> No Order Available </h4>
+	</div>
+    @endif 
 	</div>
 
 </div>

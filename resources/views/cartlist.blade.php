@@ -7,9 +7,9 @@
 
 	<!--  Trending Product section start  -->
 	<div class="row">
-	<h1> Products Cart List 
+	<h1> Products Cart List </h1>
+	 @if($products->count() > 0)    
 	<a href="/ordernow" class="btn btn-info" style="    float: right;"> Order Now </a>		
-	<hr></h1>
 	
 	<div class="col-12">
 	<table class="table">
@@ -44,9 +44,15 @@
 	</tbody>
 	</table>
 	</div>
+	<a href="/ordernow" class="btn btn-info" style="    float: right;"> Order Now </a>	
+	@else  
+    <div class="col-12">
+	<h4 class="text-danger text-bold"> No Product In Cart </h4>
+	</div>
+    @endif 
 	</div>
 
-	<a href="/ordernow" class="btn btn-info" style="    float: right;"> Order Now </a>	
+	
 
 </div>
 @endsection

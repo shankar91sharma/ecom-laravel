@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E Commerce Website </title>
+    <title>Workwithshankar :: E Commerce Website </title>
 
     <!-- Latest compiled and minified CSS -->
 
@@ -47,6 +47,27 @@
     .header-search{
         width: 380px !important;
     }
+    .row {
+    margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
+
+.webistefname{
+    color: #4285f4;
+}
+.webistemname{
+    color: #ea4335;
+    margin-left: -4px;
+    margin-right: -4px;
+    font-weight: 700;
+}
+.webistelname{
+    color: #34a853;
+}
+
+.first-letter {
+  font-size: 35px;
+}
 </style>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
